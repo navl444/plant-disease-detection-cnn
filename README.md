@@ -9,14 +9,14 @@ This project is a Convolutional Neural Network (CNN) deployed via a Streamlit we
 
 ## 🧠 Training & Development
 The CNN was trained using Google Colab to leverage cloud GPU resources. 
-* **Training Notebook:** [Click Here to View the Colab Notebook](INSERT_YOUR_VIEWER_LINK_HERE)
+* **Training Notebook:** [Click Here to View the Colab Notebook](https://colab.research.google.com/drive/1vMfag1QuhnI9thLraXKXsBuZNO9Tc2W6?usp=sharing)
 * **Log Reconstruction:** Final epoch metrics were reconstructed directly from terminal logs to generate the evaluation graphs after a runtime disconnection.
 * **Production Scrubbing:** The raw development model was patched and re-serialized locally as `scrubbed_model.keras` to bypass Keras versioning conflicts (`quantization_config` errors) during Streamlit deployment.
 
 ## 🛠️ Installation & Setup (Local Environment)
 ### 📥 Download the Pre-Trained Model
 Due to GitHub's file size limits for deep learning architectures, the trained model is hosted securely via Google Drive.
-1. Download the model here: [INSERT_YOUR_DRIVE_LINK_HERE]
+1. Download the model here: [Model](https://drive.google.com/file/d/1AV1zHbprt_9vGT_rnoaM_lxX3taJeGxC/view?usp=sharing)
 2. Place the downloaded `scrubbed_model.keras` file directly into the main project folder alongside `app.py`.
 To run this application locally without dependency conflicts, use **Anaconda/Miniconda**.
 
