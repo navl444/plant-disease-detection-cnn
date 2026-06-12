@@ -14,6 +14,10 @@ The CNN was trained using Google Colab to leverage cloud GPU resources.
 * **Production Scrubbing:** The raw development model was patched and re-serialized locally as `scrubbed_model.keras` to bypass Keras versioning conflicts (`quantization_config` errors) during Streamlit deployment.
 
 ## 🛠️ Installation & Setup (Local Environment)
+### 📥 Download the Pre-Trained Model
+Due to GitHub's file size limits, the trained `.keras` model is hosted securely on Google Drive.
+1. Download the model here: [INSERT_YOUR_GOOGLE_DRIVE_LINK_HERE]
+2. Place the downloaded `scrubbed_model.keras` file directly into the main project folder alongside `app.py`.
 To run this application locally without dependency conflicts, use **Anaconda/Miniconda**.
 
 ### 1. Create a Virtual Environment
